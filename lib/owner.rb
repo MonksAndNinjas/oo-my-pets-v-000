@@ -4,6 +4,7 @@ class Owner
 
   def intialize(name)
     @name = name
+    self.class.all << @name
   end
 
   def self.all
