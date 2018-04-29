@@ -2,8 +2,8 @@ class Owner
   # code goes here
   @@all = []
 
-  def intialize(name)
-    self.class.all << @name
+  def intialize(owner)
+    owner
   end
 
 #  def self.all
