@@ -3,7 +3,6 @@ class Owner
   @@all = []
 
   def intialize(name)
-    @name = name
     self.class.all << @name
   end
 
