@@ -14,6 +14,7 @@ class Owner
   end
 
   def self.count
+    @count += 1
   end
 
   def self.reset_all
