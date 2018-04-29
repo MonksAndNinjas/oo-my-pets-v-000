@@ -1,5 +1,5 @@
 class Fish
-  attr_accessor :name
+  attr_reader :name
   # code goes here
   def initialize(name)
     @name = name
