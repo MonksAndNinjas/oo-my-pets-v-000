@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   attr_accessor :name
-  attr_reader :species
+  attr_reader :species, :pets
   # code goes here
   @@all = []
   @@count = 0
@@ -69,7 +69,7 @@ class Owner
   end
 
   def sell_pets
-    
+    @pets
   end
 
 end
