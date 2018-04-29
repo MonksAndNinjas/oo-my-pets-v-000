@@ -6,7 +6,7 @@ class Owner
   @@count = 0
 
   def initialize(species)
-    @species = name
+    @species = species
     self.class.all << self
     @@count += 1
   end
