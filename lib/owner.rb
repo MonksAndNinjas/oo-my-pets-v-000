@@ -6,7 +6,7 @@ class Owner
   def initialize(name)
     @name = name
     self.class.all << self
-    @@count += 1
+
   end
 
   def self.all
@@ -19,6 +19,7 @@ class Owner
 
   def self.reset_all
     self.all.clear
+    self..count.clear
   end
 
 end
