@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :species
+  attr_accessor :species
   # code goes here
   @@all = []
   @@count = 0
