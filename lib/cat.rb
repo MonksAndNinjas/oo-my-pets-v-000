@@ -6,8 +6,5 @@ class Cat
     @name = name
     @mood = "nervous"
   end
-
-  def self.reset_all
-  end
   
 end
