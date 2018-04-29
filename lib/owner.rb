@@ -1,12 +1,12 @@
 class Owner
   # code goes here
   @@all = []
-  @count = 0
+  @@count = 0
 
   def initialize(name)
     @name = name
     self.class.all << self
-    @count += 1
+    @@count += 1
   end
 
   def self.all
@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.count
-    @count
+    @@count
   end
 
   def self.reset_all
