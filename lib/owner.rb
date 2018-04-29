@@ -1,5 +1,4 @@
 class Owner
-  attr_accessor :species
   # code goes here
   @@all = []
   @@count = 0
@@ -21,6 +20,10 @@ class Owner
   def self.reset_all
     self.all.clear
     @@count = 0
+  end
+
+  def species
+    @name
   end
 
 end
