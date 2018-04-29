@@ -23,7 +23,4 @@ class Owner
     @@count = 0
   end
 
-  def species
-  end
-
 end
